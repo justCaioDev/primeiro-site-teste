@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(25, 2, 23), rgb(53, 4, 48));
+    background-attachment: fixed;
+    color: white;
+    margin: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    cursor: pointer;
+    line-height: 0px;
+    font-size: 2em;
+    border: 3px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    text-shadow: 4px 4px 5px rgba(135, 11, 125, 0.563);
+    display: inline-block;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: rgb(135, 11, 124);
+    transition: 0.4s all;
+}
+
+#join {
+    margin: auto;
+    margin-top: 18%;
+    width: 400px;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(25, 2, 23, 0.637);
+}
+
+span {
+    cursor: pointer;
+    color: rgb(135, 11, 124);
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 10px 3px rgba(25, 2, 23, 0.58);
+}
+
+span:hover {
+    color: rgb(248, 248, 74);
+    transition: 0.9s all;
+}
+
+#title:hover {
+    background-color: rgb(135, 11, 124);
+    transition: 1.5s all;
+}
